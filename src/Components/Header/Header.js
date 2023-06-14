@@ -34,7 +34,7 @@ function Header() {
                     {
                         navigations.map((navigation,index)=>{
                             return (
-                                <Link to={navigation.path} className="mr-5 hover:text-gray-900">{navigation.name}</Link>
+                                <Link to={navigation.path} key={index} className="mr-5 hover:text-gray-900">{navigation.name}</Link>
                             )
                         })
                     }
