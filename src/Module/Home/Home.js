@@ -28,7 +28,6 @@ function Home() {
                     <ProductCard products={products} />
                     : "Loading......"
             }
-            {/* <Products /> */}
             <StatCard />
         </>
     )
